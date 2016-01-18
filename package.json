@@ -1,0 +1,22 @@
+{
+  "name": "echo-lambda-find-my-iphone",
+  "version": "1.0.0",
+  "description": "Node project that runs on Amazon lamdba and receives verbal commands from Amazon Echo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/taco/echo-lambda-find-my-iphone"
+  },
+  "keywords": [
+    "amazon",
+    "echo",
+    "lamdba",
+    "echo",
+    "iphone"
+  ],
+  "author": "Travis Johnson",
+  "license": "MIT"
+}
