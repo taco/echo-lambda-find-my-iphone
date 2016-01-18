@@ -1,4 +1,7 @@
+# Environment Variables
+
 *.env
+event.json
 
 
 # Logs
