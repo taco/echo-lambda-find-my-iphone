@@ -2,8 +2,10 @@
   "name": "echo-lambda-find-my-iphone",
   "version": "1.0.0",
   "description": "Node project that runs on Amazon lamdba and receives verbal commands from Amazon Echo",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
+    "start": "node-lambda run",
+    "deploy": "node-lambda deploy",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,9 +22,11 @@
   "author": "Travis Johnson",
   "license": "MIT",
   "devDependencies": {
+    "dotenv": "^1.2.0",
     "node-lambda": "^0.7.1"
   },
   "dependencies": {
-    "alexa-app": "^2.3.2"
+    "alexa-app": "^2.3.2",
+    "find-my-iphone": "^1.0.1"
   }
 }
