@@ -28,5 +28,8 @@
   "dependencies": {
     "alexa-app": "^2.3.2",
     "find-my-iphone": "^1.0.1"
-  }
+  },
+  "bundledDependencies": [
+    "find-my-iphone"
+  ]
 }
